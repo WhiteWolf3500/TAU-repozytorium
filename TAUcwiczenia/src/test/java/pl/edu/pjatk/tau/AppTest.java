@@ -24,4 +24,21 @@ public class AppTest {
     public void appClassExistsCheck() {
         assertNotNull(matematics);
     }
+
+    @Test
+    public void appClassQuickMathCheck() {
+        List<Double> v = new ArrayList<Double>();
+        v.add(2.0);
+        v.add(2.0);
+        double l = matematics.quickMath(v);
+        assertEquals(4, l, 0.001);
+    }
+
+    @Test
+    public void appClassLoopingCheck() {
+        List<Double> v = new ArrayList<Double>();
+        for (int i = 0; i < 10; i++) v.add(0.1);
+        double l = matematics.quickMath(v);
+        assertEquals(1, l, 0.001);
+    }
 }
