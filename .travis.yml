@@ -1,3 +1,3 @@
 language: java
 script:
-- cd TAUcwiczenia; mvn test
+- cd TAUcwiczenia; mvn test; cd ..; cd TAUdziennik; mvn test
