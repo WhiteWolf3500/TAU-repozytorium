@@ -1,0 +1,24 @@
+-------------------------------------------------------------------------------
+Test set: pl.edu.pjatk.tau.DatabaseTestSuite
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 5, Skipped: 0, Time elapsed: 1.272 s <<< FAILURE! - in pl.edu.pjatk.tau.DatabaseTestSuite
+checkDeleting(pl.edu.pjatk.tau.dao.PlayerDaoTest)  Time elapsed: 0.33 s  <<< ERROR!
+java.sql.SQLSyntaxErrorException: user lacks privilege or object not found: PLAYER in statement [INSERT INTO Player (name, level, heroclass) VALUES (?, ?, ?)]
+	at pl.edu.pjatk.tau.dao.PlayerDaoTest.setup(PlayerDaoTest.java:44)
+
+checkGetting(pl.edu.pjatk.tau.dao.PlayerDaoTest)  Time elapsed: 0.211 s  <<< ERROR!
+java.sql.SQLSyntaxErrorException: user lacks privilege or object not found: PLAYER in statement [INSERT INTO Player (name, level, heroclass) VALUES (?, ?, ?)]
+	at pl.edu.pjatk.tau.dao.PlayerDaoTest.setup(PlayerDaoTest.java:44)
+
+checkUpdatingSuccess(pl.edu.pjatk.tau.dao.PlayerDaoTest)  Time elapsed: 0.206 s  <<< ERROR!
+java.sql.SQLSyntaxErrorException: user lacks privilege or object not found: PLAYER in statement [INSERT INTO Player (name, level, heroclass) VALUES (?, ?, ?)]
+	at pl.edu.pjatk.tau.dao.PlayerDaoTest.setup(PlayerDaoTest.java:44)
+
+checkAdding(pl.edu.pjatk.tau.dao.PlayerDaoTest)  Time elapsed: 0.206 s  <<< ERROR!
+java.sql.SQLSyntaxErrorException: user lacks privilege or object not found: PLAYER in statement [INSERT INTO Player (name, level, heroclass) VALUES (?, ?, ?)]
+	at pl.edu.pjatk.tau.dao.PlayerDaoTest.setup(PlayerDaoTest.java:44)
+
+checkUpdatingFailure(pl.edu.pjatk.tau.dao.PlayerDaoTest)  Time elapsed: 0.212 s  <<< ERROR!
+java.sql.SQLSyntaxErrorException: user lacks privilege or object not found: PLAYER in statement [INSERT INTO Player (name, level, heroclass) VALUES (?, ?, ?)]
+	at pl.edu.pjatk.tau.dao.PlayerDaoTest.setup(PlayerDaoTest.java:44)
+
