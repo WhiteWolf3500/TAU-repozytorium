@@ -12,6 +12,7 @@ import pl.edu.pjwstk.tau.domain.Person;
 
 import java.util.Collection;
 import java.util.HashMap;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
@@ -22,12 +23,16 @@ public class PersonInMemoryDaoTest {
 
     @Before
     public void setup() {
+        List<Double> g = new ArrayList<Double>();
+        for (int i = 0; i < 3; i++) g.add(4.0);
         Person p1 = new Person();
         Person p2 = new Person();
         p1.setId(1L);
-        p1.setName("Janusz");
+        p1.setName("Adam");
+        p1.setGrades(g);
         p2.setId(2L);
-        p2.setName("Grażyna");
+        p2.setName("Janusz");
+        p2.setGrades(g);
         dao = new PersonInMemoryDao();
         dao.persons = new HashMap<Long, Person>();
         dao.persons.put(1L,p1);
@@ -42,28 +47,35 @@ public class PersonInMemoryDaoTest {
     @Test
     public void getPersonThatExistsTest() {
         Optional<Person> p = dao.get(2L);
-        assertThat(p.get().getName(), is("Grażyna"));
+        assertThat(p.get().getName(), is("Janusz"));
     }
 
     @Test(expected = IllegalArgumentException.class)
     public void updateNotExisitingPersonShouldThrowTest() {
         Person p1 = new Person();
         p1.setId(9);
-        p1.setName("Xyz");
+        p1.setName("Daniel");
+        List<Double> g = new ArrayList<Double>();
+        for (int i = 0; i < 3; i++) g.add(4.0);
+        p1.setGrades(g);
         dao.update(p1);
     }
 
     @Test
     public  void updateOneRecordTest() {
+        List<Double> g = new ArrayList<Double>();
+        for (int i = 0; i < 3; i++) g.add(4.0);
         Person p1 = new Person();
         p1.setId(1);
-        p1.setName("Sebastian");
+        p1.setName("Kewin");
+        p1.setGrades(g);
         Person p2 = new Person();
         p2.setId(2);
-        p2.setName("Grażyna");
+        p2.setName("Janusz");
+        p2.setGrades(g);
 
         Collection<Person> listExpected = dao.persons.values();
-        for (Person p:listExpected) if (p.getId()==1) p.setName("Sebastian");
+        for (Person p:listExpected) if (p.getId()==1) p.setName("Kewin");
 
         dao.update(p1);
 
