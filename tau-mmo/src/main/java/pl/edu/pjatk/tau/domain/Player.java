@@ -6,7 +6,7 @@ public class Player {
 
 	private String name;
 	private Integer level;
-    private String heroclass;
+  private String heroclass;
 
 	public Player() {
 	}
@@ -15,7 +15,7 @@ public class Player {
 		this.id = null;
 		this.name = name;
 		this.level = level;
-        this.heroclass = heroclass;
+    this.heroclass = heroclass;
 	}
 
 	public Long getId() {
@@ -42,7 +42,7 @@ public class Player {
 		this.level = level;
 	}
 
-    public String getHeroClass() {
+  public String getHeroClass() {
 		return heroclass;
 	}
 
@@ -53,15 +53,15 @@ public class Player {
 	@Override
 	public boolean equals(Object o) {
 		Player other = (Player) o;
-		boolean ret = other.getName().equals(this.getName()) &&
+		boolean ret = (other.getName().equals(this.getName()) &&
 				((other.getId() == this.getId()) || (other.getId().longValue() == this.getId().longValue())) &&
-				((other.getLevel() == this.getLevel()) || (other.getLevel().intValue() == this.getLevel().intValue())) &&
-				((other.getHeroClass().equals(this.getHeroClass())));
+				((other.getLevel() == this.getLevel())) &&
+				((other.getHeroClass().equals(this.getHeroClass()))));
 		return ret;
 	}
 
 	@Override
 	public String toString() {
-		return "[" + id+ ", " + name + ", " + level + ", " + heroclass + "]";
+		return "[" + id + ", " + name + ", " + level + ", " + heroclass + "]";
 	}
 }
