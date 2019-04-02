@@ -1,8 +1,0 @@
--------------------------------------------------------------------------------
-Test set: pl.edu.pjatk.tau.mmo.DatabaseTestSuite
--------------------------------------------------------------------------------
-Tests run: 6, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 1.534 s <<< FAILURE! - in pl.edu.pjatk.tau.mmo.DatabaseTestSuite
-checkDeletingFailure(pl.edu.pjatk.tau.mmo.dao.PlayerDaoTest)  Time elapsed: 0.225 s  <<< ERROR!
-java.lang.Exception: Unexpected exception, expected<java.sql.SQLException> but was<java.lang.IllegalStateException>
-	at pl.edu.pjatk.tau.mmo.dao.PlayerDaoTest.checkDeletingFailure(PlayerDaoTest.java:165)
-
