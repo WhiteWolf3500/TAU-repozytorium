@@ -1,16 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: pl.edu.pjatk.tau.mmo.cucumber.RunCucumberTest
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.51 sec <<< FAILURE! - in pl.edu.pjatk.tau.mmo.cucumber.RunCucumberTest
-Player adds their character(Adding a new Player)  Time elapsed: 0.014 sec  <<< ERROR!
-java.lang.NullPointerException: null
-	at pl.edu.pjatk.tau.mmo.PlayerMMO.addPlayer(PlayerMMO.java:15)
-	at pl.edu.pjatk.tau.mmo.cucumber.CucumberTest.numbers_are_multiplied(CucumberTest.java:33)
-	at ✽.data "Adam" and 1 and "Knight" are send(file:src/test/resources/features/player_adding_new.feature:6)
-
-Player adds their character(Adding a new Player)  Time elapsed: 0 sec  <<< ERROR!
-java.lang.NullPointerException: null
-	at pl.edu.pjatk.tau.mmo.PlayerMMO.countPlayers(PlayerMMO.java:44)
-	at pl.edu.pjatk.tau.mmo.cucumber.CucumberTest.the_result_should_be(CucumberTest.java:38)
-	at ✽.the result should be 1(file:src/test/resources/features/player_adding_new.feature:7)
-
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.282 sec

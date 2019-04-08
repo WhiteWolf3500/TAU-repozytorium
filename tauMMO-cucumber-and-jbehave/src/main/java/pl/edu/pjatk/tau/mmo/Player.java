@@ -2,34 +2,23 @@ package pl.edu.pjatk.tau.mmo;
 
 public class Player {
 
-	private Long id;
 	private String name;
-	private Integer level;
-    private String heroclass;
+	private int level;
+  private String heroclass;
 
 	public Player() {
 	}
 
 	public Player(Player player) {
-		id = player.id;
 		name = player.name;
 		level = player.level;
 		heroclass = player.heroclass;
 	}
 
-	public Player(String name, Integer level, String heroclass) {
-		this.id = null;
+	public Player(String name, int level, String heroclass) {
 		this.name = name;
 		this.level = level;
-        this.heroclass = heroclass;
-	}
-
-	public Long getId() {
-		return id;
-	}
-
-	public void setId(long id) {
-		this.id = id;
+    this.heroclass = heroclass;
 	}
 
 	public String getName() {
@@ -40,7 +29,7 @@ public class Player {
 		this.name = name;
 	}
 
-	public Integer getLevel() {
+	public int getLevel() {
 		return level;
 	}
 
@@ -58,6 +47,6 @@ public class Player {
 
 	@Override
 	public String toString() {
-		return "[" + id + ", " + name + ", " + level + ", " + heroclass + "]";
+		return "[" + name + ", " + level + ", " + heroclass + "]";
 	}
 }

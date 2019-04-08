@@ -3,28 +3,33 @@ package pl.edu.pjatk.tau.mmo;
 import pl.edu.pjatk.tau.mmo.Player;
 
 import java.util.List;
+import java.util.ArrayList;
 import java.util.LinkedList;
 
 public class PlayerMMO {
     
     public List<Player> players;
 
+    public PlayerMMO() {
+        players = new ArrayList<Player>();
+    }
+
     public void addPlayer(Player player) {
         
         if(player.getLevel() == 1) {
-            players.add(new Player (player.getName(), player.getLevel(), player.getHeroClass()));
+            Player temp = new Player (player.getName(), player.getLevel(), player.getHeroClass());
+            players.add(temp);
         }
-
     }
 
     public void deletePlayer(Player player) {
 
-        if(players.indexOf(player.getName()) != -1) {
-            players.remove(players.indexOf(player.getName()));
+        if(players.indexOf(player) != -1) {
+            players.remove(players.indexOf(player));
         }
     }
 
-    public void updatePlayer(String player, Player update) {
+    public void updatePlayer(Player player, Player update) {
         int position = players.indexOf(player);
 
         if(position != -1) {
@@ -44,9 +49,8 @@ public class PlayerMMO {
         return players.size();    
     }
 
-    public Player getPlayer(int id) {
+    public int getPlayerID(Player player) {
 
-         return players.get(id);
+        return players.indexOf(player);
     }
-
 }
