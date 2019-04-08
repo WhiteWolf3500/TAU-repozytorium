@@ -1,0 +1,15 @@
+
+(pl/edu/pjatk/tau/mmo/jbehave/delete_player_story.story)
+Scenario: 
+Examples:
+
+|a|b|c|
+|Eliza|1|Archer|
+|Test|5|Paladin|
+
+Example: {a=Eliza, b=1, c=Archer}
+
+Example: {a=Test, b=5, c=Paladin}
+
+
+

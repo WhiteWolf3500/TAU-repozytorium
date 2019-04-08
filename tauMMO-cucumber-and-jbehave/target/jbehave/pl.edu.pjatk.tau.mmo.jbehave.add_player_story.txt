@@ -1,0 +1,15 @@
+
+(pl/edu/pjatk/tau/mmo/jbehave/add_player_story.story)
+Scenario: 
+Examples:
+
+|a|b|c|list|
+|Adam|1|Knight|1|
+|Eliza|3|Archer|0|
+
+Example: {a=Adam, b=1, c=Knight, list=1}
+
+Example: {a=Eliza, b=3, c=Archer, list=0}
+
+
+
