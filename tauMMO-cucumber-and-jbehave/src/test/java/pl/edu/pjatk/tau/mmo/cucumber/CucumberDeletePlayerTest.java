@@ -34,13 +34,13 @@ public class CucumberDeletePlayerTest {
         playerlist.addPlayer(temp2);
     }
 
-    @When("I delete a player with data {string} and {int} and {string}")
+    @When("I try to delete a player with data {string} and {int} and {string}")
     public void deleting_a_player(String a, int b, String c) throws Throwable {
         this.deletedPlayer = new Player(a,b,c);
         playerlist.deletePlayer(deletedPlayer);
     }
 
-    @Then("that player should be deleted {int}")
+    @Then("that player should not exist {int}")
     public void confirming_that_player_was_deleted(int d) throws Throwable {
         assertEquals(d, playerlist.getPlayerID(this.deletedPlayer));
     }
