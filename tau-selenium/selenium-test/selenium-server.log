@@ -1,0 +1,156 @@
+02:15:10.047 INFO [GridLauncherV3.parse] - Selenium server version: 3.141.59, revision: e82be7d358
+02:15:10.101 INFO [GridLauncherV3.lambda$buildLaunchers$3] - Launching a standalone Selenium Server on port 4444
+2019-04-16 02:15:10.145:INFO::main: Logging initialized @317ms to org.seleniumhq.jetty9.util.log.StdErrLog
+02:15:10.343 INFO [WebDriverServlet.<init>] - Initialising WebDriverServlet
+02:15:10.403 INFO [SeleniumServer.boot] - Selenium Server is up and running on port 4444
+02:15:11.054 INFO [ActiveSessionFactory.apply] - Capabilities are: {
+  "acceptSslCerts": true,
+  "browserName": "firefox",
+  "javascriptEnabled": true,
+  "name": "Register Success",
+  "nativeEvents": true
+}
+02:15:11.056 INFO [ActiveSessionFactory.lambda$apply$11] - Matched factory org.openqa.selenium.grid.session.remote.ServicedSession$Factory (provider: org.openqa.selenium.firefox.GeckoDriverService)
+02:15:11.051 INFO [ActiveSessionFactory.apply] - Capabilities are: {
+  "acceptSslCerts": true,
+  "browserName": "firefox",
+  "javascriptEnabled": true,
+  "name": "Register Fail",
+  "nativeEvents": true
+}
+02:15:11.057 INFO [ActiveSessionFactory.lambda$apply$11] - Matched factory org.openqa.selenium.grid.session.remote.ServicedSession$Factory (provider: org.openqa.selenium.firefox.GeckoDriverService)
+02:15:11.057 INFO [ActiveSessionFactory.apply] - Capabilities are: {
+  "acceptSslCerts": true,
+  "browserName": "firefox",
+  "javascriptEnabled": true,
+  "name": "Login Fail Test",
+  "nativeEvents": true
+}
+02:15:11.051 INFO [ActiveSessionFactory.apply] - Capabilities are: {
+  "acceptSslCerts": true,
+  "browserName": "firefox",
+  "javascriptEnabled": true,
+  "name": "Login Success Test",
+  "nativeEvents": true
+}
+02:15:11.057 INFO [ActiveSessionFactory.lambda$apply$11] - Matched factory org.openqa.selenium.grid.session.remote.ServicedSession$Factory (provider: org.openqa.selenium.firefox.GeckoDriverService)
+02:15:11.059 INFO [ActiveSessionFactory.lambda$apply$11] - Matched factory org.openqa.selenium.grid.session.remote.ServicedSession$Factory (provider: org.openqa.selenium.firefox.GeckoDriverService)
+1555373711365	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.g29Zr1CaTspk"
+1555373711365	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.qKCzDxFZbNMe"
+1555373711367	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.ktF4MmAyNm6e"
+1555373711368	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.XqceRHV8MAsL"
+1555373711969	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1555373711970	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1555373711970	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1555373712035	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1555373712035	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1555373712036	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1555373712042	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1555373712042	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1555373712043	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1555373712064	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1555373712064	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1555373712065	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1555373715945	Marionette	INFO	Listening on port 36679
+02:15:16.032 INFO [ProtocolHandshake.createSession] - Detected dialect: W3C
+02:15:16.063 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session 68d5f2e9-d376-4a38-a7e4-18a0cba9745f (org.openqa.selenium.firefox.GeckoDriverService)
+1555373716744	Marionette	INFO	Listening on port 36963
+02:15:16.849 INFO [ProtocolHandshake.createSession] - Detected dialect: W3C
+02:15:16.854 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session 10cf01be-c7d4-4cee-b50c-2913f14410f8 (org.openqa.selenium.firefox.GeckoDriverService)
+1555373717030	Marionette	INFO	Listening on port 37903
+02:15:17.135 INFO [ProtocolHandshake.createSession] - Detected dialect: W3C
+02:15:17.139 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session dffb4b39-b2e4-4acd-ac35-fb13335fe5b0 (org.openqa.selenium.firefox.GeckoDriverService)
+1555373717146	Marionette	INFO	Listening on port 38477
+02:15:17.229 INFO [ProtocolHandshake.createSession] - Detected dialect: W3C
+02:15:17.231 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session 89d391b1-640f-4a91-85d3-c8f0080246aa (org.openqa.selenium.firefox.GeckoDriverService)
+1555373720210	Marionette	INFO	Stopped listening on port 37903
+1555373720211	Marionette	INFO	Stopped listening on port 36963
+JavaScript error: resource://activity-stream/lib/ActivityStreamPrefs.jsm, line 23: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIPrefBranch.removeObserver]
+JavaScript error: resource://activity-stream/lib/ActivityStreamPrefs.jsm, line 23: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIPrefBranch.removeObserver]
+1555373720246	Marionette	INFO	Stopped listening on port 36679
+JavaScript error: resource://activity-stream/lib/ActivityStreamPrefs.jsm, line 23: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIPrefBranch.removeObserver]
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/nsUrlClassifierListManager.js, line 597: TypeError: this.tablesData[table] is undefined
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[Parent 8076, Gecko_IOThread] WARNING: pipe error (82): Połączenie zerwane przez drugą stronę: file /build/firefox-QFhmDU/firefox-66.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+[Parent 8081, Gecko_IOThread] WARNING: pipe error (79): Połączenie zerwane przez drugą stronę: file /build/firefox-QFhmDU/firefox-66.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+[Parent 8081, Gecko_IOThread] WARNING: pipe error (80): Połączenie zerwane przez drugą stronę: file /build/firefox-QFhmDU/firefox-66.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+[Parent 8076, Gecko_IOThread] WARNING: pipe error (79): Połączenie zerwane przez drugą stronę: file /build/firefox-QFhmDU/firefox-66.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/nsUrlClassifierListManager.js, line 597: TypeError: this.tablesData[table] is undefined
+[Parent 8079, Gecko_IOThread] WARNING: pipe error (85): Połączenie zerwane przez drugą stronę: file /build/firefox-QFhmDU/firefox-66.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+1555373720679	Marionette	INFO	Stopped listening on port 38477
+JavaScript error: resource://activity-stream/lib/ActivityStreamPrefs.jsm, line 23: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIPrefBranch.removeObserver]
+[Parent 8077, Gecko_IOThread] WARNING: pipe error (79): Połączenie zerwane przez drugą stronę: file /build/firefox-QFhmDU/firefox-66.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+[Parent 8077, Gecko_IOThread] WARNING: pipe error (98): Połączenie zerwane przez drugą stronę: file /build/firefox-QFhmDU/firefox-66.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/nsUrlClassifierListManager.js, line 597: TypeError: this.tablesData[table] is undefined
+console.error: 
+  [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIAppShellService.hiddenDOMWindow]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/DownloadsManager.jsm :: init :: line 44"  data: no]: init@resource://activity-stream/lib/DownloadsManager.jsm:44:5
+postInit@resource://activity-stream/lib/HighlightsFeed.jsm:60:5
+handler@resource://gre/modules/EventEmitter.jsm:94:11
+emit@resource://gre/modules/EventEmitter.jsm:149:11
+init@resource://activity-stream/lib/SectionsManager.jsm:119:5
+
+JavaScript error: resource://activity-stream/lib/PlacesFeed.jsm, line 171: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsINavHistoryService.addObserver]
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 675: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "JSON store: writing data"
+JavaScript error: resource://gre/modules/IndexedDB.jsm, line 349: UnknownError: The operation failed for reasons unrelated to the database itself and not covered by any other error code.
+JavaScript error: resource://gre/modules/IndexedDB.jsm, line 349: UnknownError: The operation failed for reasons unrelated to the database itself and not covered by any other error code.
+JavaScript error: resource://gre/modules/IndexedDB.jsm, line 349: UnknownError: The operation failed for reasons unrelated to the database itself and not covered by any other error code.
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 834: Error: Connection is not open.
+
+###!!! [Parent][DispatchAsyncMessage] Error: PBackgroundIDBFactory::Msg_PBackgroundIDBFactoryRequestConstructor Value error: message was deserialized, but contained an illegal value
+
+
+###!!! [Parent][DispatchAsyncMessage] Error: PBackgroundIDBFactory::Msg_PBackgroundIDBFactoryRequestConstructor Value error: message was deserialized, but contained an illegal value
+
+
+###!!! [Parent][DispatchAsyncMessage] Error: PBackgroundIDBFactory::Msg_PBackgroundIDBFactoryRequestConstructor Value error: message was deserialized, but contained an illegal value
+
+
+###!!! [Parent][DispatchAsyncMessage] Error: PBackgroundIDBFactory::Msg_PBackgroundIDBFactoryRequestConstructor Value error: message was deserialized, but contained an illegal value
+
+
+###!!! [Parent][DispatchAsyncMessage] Error: PBackgroundIDBFactory::Msg_PBackgroundIDBFactoryRequestConstructor Value error: message was deserialized, but contained an illegal value
+
+
+###!!! [Parent][DispatchAsyncMessage] Error: PBackgroundIDBFactory::Msg_PBackgroundIDBFactoryRequestConstructor Value error: message was deserialized, but contained an illegal value
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+02:15:22.395 INFO [ActiveSessions$1.onStop] - Removing session dffb4b39-b2e4-4acd-ac35-fb13335fe5b0 (org.openqa.selenium.firefox.GeckoDriverService)
+02:15:22.456 INFO [ActiveSessions$1.onStop] - Removing session 10cf01be-c7d4-4cee-b50c-2913f14410f8 (org.openqa.selenium.firefox.GeckoDriverService)
+02:15:22.573 INFO [ActiveSessions$1.onStop] - Removing session 89d391b1-640f-4a91-85d3-c8f0080246aa (org.openqa.selenium.firefox.GeckoDriverService)
+02:15:22.691 INFO [ActiveSessionFactory.apply] - Capabilities are: {
+  "acceptSslCerts": true,
+  "browserName": "firefox",
+  "javascriptEnabled": true,
+  "name": "Resposiveness Test",
+  "nativeEvents": true
+}
+02:15:22.692 INFO [ActiveSessionFactory.lambda$apply$11] - Matched factory org.openqa.selenium.grid.session.remote.ServicedSession$Factory (provider: org.openqa.selenium.firefox.GeckoDriverService)
+1555373722734	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.4V8D818USNsI"
+02:15:22.793 INFO [ActiveSessions$1.onStop] - Removing session 68d5f2e9-d376-4a38-a7e4-18a0cba9745f (org.openqa.selenium.firefox.GeckoDriverService)
+1555373723183	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1555373723184	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1555373723184	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1555373725271	Marionette	INFO	Listening on port 45731
+02:15:25.418 INFO [ProtocolHandshake.createSession] - Detected dialect: W3C
+02:15:25.420 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session 56e3465f-b8f6-4ecd-b50e-09bdf1490c04 (org.openqa.selenium.firefox.GeckoDriverService)
+1555373726621	Marionette	INFO	Stopped listening on port 45731
+JavaScript error: resource://activity-stream/lib/ActivityStreamPrefs.jsm, line 23: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIPrefBranch.removeObserver]
+[Parent 8921, Gecko_IOThread] WARNING: pipe error (93): Połączenie zerwane przez drugą stronę: file /build/firefox-QFhmDU/firefox-66.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+[Parent 8921, Gecko_IOThread] WARNING: pipe error (79): Połączenie zerwane przez drugą stronę: file /build/firefox-QFhmDU/firefox-66.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+
+###!!! [Parent][DispatchAsyncMessage] Error: PBackgroundIDBFactory::Msg_PBackgroundIDBFactoryRequestConstructor Value error: message was deserialized, but contained an illegal value
+
+
+###!!! [Parent][DispatchAsyncMessage] Error: PBackgroundIDBFactory::Msg_PBackgroundIDBFactoryRequestConstructor Value error: message was deserialized, but contained an illegal value
+
+02:15:28.088 INFO [ActiveSessions$1.onStop] - Removing session 56e3465f-b8f6-4ecd-b50e-09bdf1490c04 (org.openqa.selenium.firefox.GeckoDriverService)

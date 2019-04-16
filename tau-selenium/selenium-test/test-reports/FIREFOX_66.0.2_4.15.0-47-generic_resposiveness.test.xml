@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="1">
+
+  <testsuite name="resposiveness.test"
+    errors="0" failures="0" hostname="" id="" package="resposiveness.test" skipped="0"
+    tests="1" time="2.662" timestamp="">
+  
+    <testcase name="Responsiveness test" classname="resposiveness.test" time="2.662" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>
