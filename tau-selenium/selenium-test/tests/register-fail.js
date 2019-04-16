@@ -13,7 +13,7 @@ module.exports = {
       .assert.containsText(".help-block:nth-child(6)", "Sex is required")
       .assert.containsText(".form-group:nth-child(5) > .help-block", "E-mail is required")
       .assert.containsText(".form-group:nth-child(6) > .help-block", "Password is required")
-      .saveScreenshot('./reports/register-fail.png')
+      .saveScreenshot('./test-reports/register-fail.png')
       .setValue('input[name="username"]', "SuperCoolUsername")
       .setValue('input[name="firstname"]', "Adam")
       .setValue('input[name="lastname"]', "Jankowski")

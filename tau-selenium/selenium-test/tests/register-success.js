@@ -13,7 +13,7 @@ module.exports = {
       .setValue('input[name="password"]', "12345")
       .click('button')
       .assert.containsText(".alert", "Registration completed!")
-      .saveScreenshot('./reports/register-success.png')
+      .saveScreenshot('./test-reports/register-success.png')
       .end();
     }
 }

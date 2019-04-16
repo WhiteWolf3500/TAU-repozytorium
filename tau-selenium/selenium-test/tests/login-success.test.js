@@ -10,7 +10,7 @@ module.exports = {
       .click('button')
       .waitForElementVisible("div > div > div > div > div > div > p:nth-child(2)", 1000)
       .assert.containsText("div > div > div > div > div > div > p", "You're logged in!")
-      .saveScreenshot('./reports/login-success.png')
+      .saveScreenshot('./test-reports/login-success.png')
       .end();
     }
 }

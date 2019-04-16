@@ -10,7 +10,7 @@ module.exports = {
       .click('button')
       .waitForElementVisible(".alert-danger", 1000)
       .assert.containsText(".alert-danger", "Username or password is incorrect")
-      .saveScreenshot('./reports/login-fail.png')
+      .saveScreenshot('./test-reports/login-fail.png')
       .end();
     }
 }

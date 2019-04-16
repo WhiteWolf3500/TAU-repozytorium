@@ -5,9 +5,9 @@
 
   <testsuite name="resposiveness.test"
     errors="0" failures="0" hostname="" id="" package="resposiveness.test" skipped="0"
-    tests="1" time="2.662" timestamp="">
+    tests="1" time="3.625" timestamp="">
   
-    <testcase name="Responsiveness test" classname="resposiveness.test" time="2.662" assertions="2">
+    <testcase name="Responsiveness test" classname="resposiveness.test" time="3.625" assertions="2">
 
     
 

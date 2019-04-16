@@ -5,9 +5,9 @@
 
   <testsuite name="register-fail"
     errors="0" failures="0" hostname="" id="" package="register-fail" skipped="0"
-    tests="1" time="5.330" timestamp="">
+    tests="1" time="5.191" timestamp="">
   
-    <testcase name="Fail registration" classname="register-fail" time="5.330" assertions="10">
+    <testcase name="Fail registration" classname="register-fail" time="5.191" assertions="10">
 
     
 
