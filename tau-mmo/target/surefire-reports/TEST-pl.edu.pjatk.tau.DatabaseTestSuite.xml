@@ -1,67 +1,71 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="pl.edu.pjatk.tau.DatabaseTestSuite" time="1.599" tests="6" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="pl.edu.pjatk.tau.DatabaseTestSuite" time="1.509" tests="6" errors="0" skipped="0" failures="1">
   <properties>
     <property name="sun.desktop" value="gnome"/>
     <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
-    <property name="java.specification.version" value="10"/>
     <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
     <property name="sun.cpu.isalist" value=""/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
-    <property name="java.class.path" value="/home/whitewolf/tau/TAU-repozytorium/tau-mmo/target/test-classes:/home/whitewolf/tau/TAU-repozytorium/tau-mmo/target/classes:/home/whitewolf/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/whitewolf/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/whitewolf/.m2/repository/org/hsqldb/hsqldb/2.3.4/hsqldb-2.3.4.jar:"/>
+    <property name="java.class.path" value="/home/PJWSTK/s15196/tau/TAU-repozytorium/tau-mmo/target/test-classes:/home/PJWSTK/s15196/tau/TAU-repozytorium/tau-mmo/target/classes:/home/PJWSTK/s15196/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/PJWSTK/s15196/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/PJWSTK/s15196/.m2/repository/org/hsqldb/hsqldb/2.3.4/hsqldb-2.3.4.jar:"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="user.timezone" value=""/>
-    <property name="java.vm.specification.version" value="10"/>
+    <property name="user.country.format" value="PL"/>
+    <property name="java.vm.specification.version" value="1.8"/>
     <property name="os.name" value="Linux"/>
+    <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
-    <property name="user.country" value="PL"/>
-    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-11-openjdk-amd64/lib"/>
-    <property name="sun.java.command" value="/home/whitewolf/tau/TAU-repozytorium/tau-mmo/target/surefire/surefirebooter14671264341049700413.jar /home/whitewolf/tau/TAU-repozytorium/tau-mmo/target/surefire 2019-03-18T22-21-45_575-jvmRun1 surefire8739072853311239533tmp surefire_012174784208916837578tmp"/>
-    <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="/home/whitewolf/tau/TAU-repozytorium/tau-mmo/target/test-classes:/home/whitewolf/tau/TAU-repozytorium/tau-mmo/target/classes:/home/whitewolf/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/whitewolf/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/whitewolf/.m2/repository/org/hsqldb/hsqldb/2.3.4/hsqldb-2.3.4.jar:"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64"/>
+    <property name="sun.java.command" value="/home/PJWSTK/s15196/tau/TAU-repozytorium/tau-mmo/target/surefire/surefirebooter7603553670719643023.jar /home/PJWSTK/s15196/tau/TAU-repozytorium/tau-mmo/target/surefire 2019-04-30T08-32-13_696-jvmRun1 surefire7018813152266456667tmp surefire_0993595368993636465tmp"/>
+    <property name="surefire.test.class.path" value="/home/PJWSTK/s15196/tau/TAU-repozytorium/tau-mmo/target/test-classes:/home/PJWSTK/s15196/tau/TAU-repozytorium/tau-mmo/target/classes:/home/PJWSTK/s15196/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/PJWSTK/s15196/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/PJWSTK/s15196/.m2/repository/org/hsqldb/hsqldb/2.3.4/hsqldb-2.3.4.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
-    <property name="user.home" value="/home/whitewolf"/>
-    <property name="user.language" value="pl"/>
+    <property name="user.home" value="/home/PJWSTK/s15196"/>
+    <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
-    <property name="java.version.date" value="2018-07-17"/>
-    <property name="java.home" value="/usr/lib/jvm/java-11-openjdk-amd64"/>
+    <property name="java.home" value="/usr/lib/jvm/java-8-openjdk-amd64/jre"/>
+    <property name="basedir" value="/home/PJWSTK/s15196/tau/TAU-repozytorium/tau-mmo"/>
     <property name="file.separator" value="/"/>
-    <property name="basedir" value="/home/whitewolf/tau/TAU-repozytorium/tau-mmo"/>
-    <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="line.separator" value="&#10;"/>
-    <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="/home/whitewolf/tau/TAU-repozytorium/tau-mmo/target/surefire/surefirebooter14671264341049700413.jar"/>
+    <property name="surefire.real.class.path" value="/home/PJWSTK/s15196/tau/TAU-repozytorium/tau-mmo/target/surefire/surefirebooter7603553670719643023.jar"/>
+    <property name="sun.boot.class.path" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/classes"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="java.runtime.version" value="10.0.2+13-Ubuntu-1ubuntu0.18.04.4"/>
-    <property name="user.name" value="whitewolf"/>
+    <property name="java.runtime.version" value="1.8.0_191-8u191-b12-2ubuntu0.16.04.1-b12"/>
+    <property name="user.name" value="s15196"/>
     <property name="path.separator" value=":"/>
-    <property name="os.version" value="4.15.0-43-generic"/>
+    <property name="os.version" value="4.4.0-145-generic"/>
+    <property name="java.endorsed.dirs" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/endorsed"/>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="file.encoding" value="UTF-8"/>
     <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
-    <property name="localRepository" value="/home/whitewolf/.m2/repository"/>
-    <property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/"/>
+    <property name="localRepository" value="/home/PJWSTK/s15196/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="java.io.tmpdir" value="/tmp"/>
-    <property name="java.version" value="10.0.2"/>
-    <property name="user.dir" value="/home/whitewolf/tau/TAU-repozytorium/tau-mmo"/>
+    <property name="java.version" value="1.8.0_191"/>
+    <property name="user.dir" value="/home/PJWSTK/s15196/tau/TAU-repozytorium/tau-mmo"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="user.language.format" value="pl"/>
     <property name="sun.os.patch.level" value="unknown"/>
-    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib"/>
-    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib"/>
     <property name="java.vm.info" value="mixed mode"/>
-    <property name="java.vm.version" value="10.0.2+13-Ubuntu-1ubuntu0.18.04.4"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.191-b12"/>
+    <property name="java.ext.dirs" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext:/usr/java/packages/lib/ext"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
-    <property name="java.class.version" value="54.0"/>
+    <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="checkDeleting" classname="pl.edu.pjatk.tau.dao.PlayerDaoTest" time="0.339"/>
-  <testcase name="checkDeletingSuccess" classname="pl.edu.pjatk.tau.dao.PlayerDaoTest" time="0.241"/>
-  <testcase name="checkGetting" classname="pl.edu.pjatk.tau.dao.PlayerDaoTest" time="0.221"/>
-  <testcase name="checkUpdatingSuccess" classname="pl.edu.pjatk.tau.dao.PlayerDaoTest" time="0.231"/>
-  <testcase name="checkAdding" classname="pl.edu.pjatk.tau.dao.PlayerDaoTest" time="0.22"/>
-  <testcase name="checkUpdatingFailure" classname="pl.edu.pjatk.tau.dao.PlayerDaoTest" time="0.269"/>
+  <testcase name="checkDeleting" classname="pl.edu.pjatk.tau.dao.PlayerDaoTest" time="0.338"/>
+  <testcase name="checkDeletingSuccess" classname="pl.edu.pjatk.tau.dao.PlayerDaoTest" time="0.236">
+    <failure message="&#10;Expected: &lt;[[254, Heoic Hero 709, 48, Knight tier 7], [255, Heoic Hero 5071, 12, Knight tier 5], [256, Heoic Hero 8942, 60, Knight tier 4], [257, Heoic Hero 722, 24, Knight tier 6], [258, Heoic Hero 2335, 40, Knight tier 8], [259, Heoic Hero 2975, 96, Knight tier 7], [260, Heoic Hero 6543, 24, Knight tier 1], [261, Heoic Hero 9668, 21, Knight tier 3], [262, Heoic Hero 4284, 49, Knight tier 4], [263, Heoic Hero 3363, 17, Knight tier 2]]&gt;&#10;     but: was &lt;[[254, Heoic Hero 709, 48, Knight tier 7], [255, Heoic Hero 5071, 12, Knight tier 5], [256, Heoic Hero 8942, 60, Knight tier 4], [258, Heoic Hero 2335, 40, Knight tier 8], [259, Heoic Hero 2975, 96, Knight tier 7], [260, Heoic Hero 6543, 24, Knight tier 1], [261, Heoic Hero 9668, 21, Knight tier 3], [262, Heoic Hero 4284, 49, Knight tier 4], [263, Heoic Hero 3363, 17, Knight tier 2]]&gt;" type="java.lang.AssertionError">java.lang.AssertionError: Expected: &lt;[[254, Heoic Hero 709, 48, Knight tier 7], [255, Heoic Hero 5071, 12, Knight tier 5], [256, Heoic Hero 8942, 60, Knight tier 4], [257, Heoic Hero 722, 24, Knight tier 6], [258, Heoic Hero 2335, 40, Knight tier 8], [259, Heoic Hero 2975, 96, Knight tier 7], [260, Heoic Hero 6543, 24, Knight tier 1], [261, Heoic Hero 9668, 21, Knight tier 3], [262, Heoic Hero 4284, 49, Knight tier 4], [263, Heoic Hero 3363, 17, Knight tier 2]]&gt;     but: was &lt;[[254, Heoic Hero 709, 48, Knight tier 7], [255, Heoic Hero 5071, 12, Knight tier 5], [256, Heoic Hero 8942, 60, Knight tier 4], [258, Heoic Hero 2335, 40, Knight tier 8], [259, Heoic Hero 2975, 96, Knight tier 7], [260, Heoic Hero 6543, 24, Knight tier 1], [261, Heoic Hero 9668, 21, Knight tier 3], [262, Heoic Hero 4284, 49, Knight tier 4], [263, Heoic Hero 3363, 17, Knight tier 2]]&gt;	at pl.edu.pjatk.tau.dao.PlayerDaoTest.checkDeletingSuccess(PlayerDaoTest.java:110)</failure>
+  </testcase>
+  <testcase name="checkGetting" classname="pl.edu.pjatk.tau.dao.PlayerDaoTest" time="0.212"/>
+  <testcase name="checkUpdatingSuccess" classname="pl.edu.pjatk.tau.dao.PlayerDaoTest" time="0.218"/>
+  <testcase name="checkAdding" classname="pl.edu.pjatk.tau.dao.PlayerDaoTest" time="0.214"/>
+  <testcase name="checkUpdatingFailure" classname="pl.edu.pjatk.tau.dao.PlayerDaoTest" time="0.216"/>
 </testsuite>

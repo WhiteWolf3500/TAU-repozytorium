@@ -1,4 +1,11 @@
 -------------------------------------------------------------------------------
 Test set: pl.edu.pjatk.tau.DatabaseTestSuite
 -------------------------------------------------------------------------------
-Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.599 s - in pl.edu.pjatk.tau.DatabaseTestSuite
+Tests run: 6, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 1.509 s <<< FAILURE! - in pl.edu.pjatk.tau.DatabaseTestSuite
+checkDeletingSuccess(pl.edu.pjatk.tau.dao.PlayerDaoTest)  Time elapsed: 0.236 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: <[[254, Heoic Hero 709, 48, Knight tier 7], [255, Heoic Hero 5071, 12, Knight tier 5], [256, Heoic Hero 8942, 60, Knight tier 4], [257, Heoic Hero 722, 24, Knight tier 6], [258, Heoic Hero 2335, 40, Knight tier 8], [259, Heoic Hero 2975, 96, Knight tier 7], [260, Heoic Hero 6543, 24, Knight tier 1], [261, Heoic Hero 9668, 21, Knight tier 3], [262, Heoic Hero 4284, 49, Knight tier 4], [263, Heoic Hero 3363, 17, Knight tier 2]]>
+     but: was <[[254, Heoic Hero 709, 48, Knight tier 7], [255, Heoic Hero 5071, 12, Knight tier 5], [256, Heoic Hero 8942, 60, Knight tier 4], [258, Heoic Hero 2335, 40, Knight tier 8], [259, Heoic Hero 2975, 96, Knight tier 7], [260, Heoic Hero 6543, 24, Knight tier 1], [261, Heoic Hero 9668, 21, Knight tier 3], [262, Heoic Hero 4284, 49, Knight tier 4], [263, Heoic Hero 3363, 17, Knight tier 2]]>
+	at pl.edu.pjatk.tau.dao.PlayerDaoTest.checkDeletingSuccess(PlayerDaoTest.java:110)
+

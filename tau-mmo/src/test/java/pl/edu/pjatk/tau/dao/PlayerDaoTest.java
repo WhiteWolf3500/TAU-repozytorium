@@ -106,7 +106,8 @@ public class PlayerDaoTest {
     public void checkDeletingSuccess() throws SQLException {
         Player p = expectedDbState.get(3);
         expectedDbState.remove(p);
-        assertEquals(1, playerManager.deletePlayer(p));
+        playerManager.deletePlayer(p);
+        assertThat(playerManager.getAllPlayers(), equalTo(expectedDbState));
     }
 
     @Test()

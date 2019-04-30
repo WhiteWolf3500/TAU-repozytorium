@@ -1,2 +1,3 @@
-pl/edu/pjatk/tau/mmo/DatabaseTestSuite.class
 pl/edu/pjatk/tau/mmo/dao/PlayerDaoTest.class
+pl/edu/pjatk/tau/mmo/dao/PlayerDaoTest$AbstractResultSet.class
+pl/edu/pjatk/tau/mmo/DatabaseTestSuite.class
