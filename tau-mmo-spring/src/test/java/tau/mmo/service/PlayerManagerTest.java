@@ -113,4 +113,10 @@ public class PlayerManagerTest {
 		assertEquals(updated.getHeroClass(), "God");
 	}
 
+	@Test
+	public void findPlayersByNameFragment() {
+		List<Player> players = playerManager.findPlayers("dam");
+		assertEquals("Adam", players.get(0).getName());
+	}
+
 }

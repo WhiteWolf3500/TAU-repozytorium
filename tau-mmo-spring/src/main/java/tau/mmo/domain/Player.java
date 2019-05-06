@@ -5,7 +5,8 @@ import javax.persistence.*;
 @Entity(name = "Player")
 @Table(name = "player")
 @NamedQueries({
-        @NamedQuery(name = "player.all", query = "Select p from Player p")
+				@NamedQuery(name = "player.all", query = "Select p from Player p"),
+				@NamedQuery(name = "player.findPlayers", query = "Select c from Player c where c.name like :nameFragment")
 })
 
 public class Player {

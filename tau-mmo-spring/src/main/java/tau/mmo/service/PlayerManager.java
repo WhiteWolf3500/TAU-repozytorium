@@ -12,4 +12,5 @@ public interface PlayerManager {
 	Player findPlayerByFragment(String fragment);
 	void deletePlayer(Player player);
 	List<Player> findAllPlayers();
+	List<Player> findPlayers(String nameFragment);
 }

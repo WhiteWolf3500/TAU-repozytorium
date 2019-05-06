@@ -60,4 +60,13 @@ public class PlayerManagerHibernateImpl implements PlayerManager {
 				.list();
 	}
 
+	@Override
+	public List<Player> findPlayers(String nameFragment) {
+		return (List<Player>) sessionFactory.getCurrentSession()
+				.getNamedQuery("player.findPlayers")
+				.setString("nameFragment", "%"+nameFragment+"%")
+				.list();
+	}
+
+
 }
