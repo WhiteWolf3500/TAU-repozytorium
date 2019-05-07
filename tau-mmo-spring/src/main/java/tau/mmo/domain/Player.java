@@ -1,12 +1,15 @@
 package tau.mmo.domain;
 
+import java.util.LinkedList;
+import java.util.List;
+
 import javax.persistence.*;
 
 @Entity(name = "Player")
 @Table(name = "player")
 @NamedQueries({
-				@NamedQuery(name = "player.all", query = "Select p from Player p"),
-				@NamedQuery(name = "player.findPlayers", query = "Select c from Player c where c.name like :nameFragment")
+	@NamedQuery(name = "player.all", query = "Select p from Player p"),
+	@NamedQuery(name = "player.findPlayers", query = "Select c from Player c where c.name like :nameFragment")
 })
 
 public class Player {
@@ -18,15 +21,12 @@ public class Player {
 	private Integer level;
 	private String heroclass;
 
-	public Player() {
-	}
-
-	public Player(String name, Integer level, String heroclass) {
-		this.id = null;
-		this.name = name;
-		this.level = level;
-    	this.heroclass = heroclass;
-	}
+	@OneToMany(cascade = CascadeType.PERSIST,
+		fetch = FetchType.EAGER,
+		orphanRemoval=false,
+		mappedBy = "player"
+	)
+	private List<Item> items = new LinkedList<>();
 
 	public Long getId() {
 		return id;
@@ -72,6 +72,23 @@ public class Player {
 
 	@Override
 	public String toString() {
-		return "[" + id + ", " + name + ", " + level + ", " + heroclass + "]";
+		return "[" + id + ", " + name + ", " + level + ", " + heroclass + "," + items.size() + "]";
 	}
+
+	public List<Item> getItems() {
+		return items;
+	}
+
+	public void setItems(List<Item> items) {
+		this.items = items;
+	}
+
+	public void addItem(Item item) {
+		items.add(item);
+	}
+
+	public void removeItem(Item item) {
+		items.remove(item);
+	}
+
 }
