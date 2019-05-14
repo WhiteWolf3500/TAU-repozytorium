@@ -91,4 +91,14 @@ public class Player {
 		items.remove(item);
 	}
 
+	public Player clone() {
+		Player p = new Player();
+		p.items = null;
+		p.id = id;
+		p.name = name;
+		p.heroclass = heroclass;
+		p.level = level;
+		return p;
+	}
+
 }
