@@ -2,6 +2,7 @@ package tau.mmo.service;
 
 import java.util.List;
 
+import org.hibernate.Query;
 import org.hibernate.SessionFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
@@ -66,6 +67,14 @@ public class PlayerManagerHibernateImpl implements PlayerManager {
 	public List<Player> findAllPlayers() {
 		return sessionFactory.getCurrentSession().getNamedQuery("player.all")
 				.list();
+	}
+
+	@Override
+	public List<Player> findPageofPlayers(int page, int count) {
+		Query q = sessionFactory.getCurrentSession().getNamedQuery("player.all");
+		q.setFirstResult(page*count);
+		q.setMaxResults(count);
+		return q.list();
 	}
 
 	@Override

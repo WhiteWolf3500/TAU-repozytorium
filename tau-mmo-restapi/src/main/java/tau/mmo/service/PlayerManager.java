@@ -13,6 +13,7 @@ public interface PlayerManager {
 	Player findPlayerByFragment(String fragment);
 	void deletePlayer(Player player);
 	List<Player> findAllPlayers();
+	List<Player> findPageofPlayers(int page, int count);
 	List<Player> findPlayers(String nameFragment);
 
 	Long addItem(Item item);

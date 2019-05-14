@@ -27,16 +27,8 @@ public class PlayerController {
     }
     
     @RequestMapping("/players/{page}/{count}")
-    public java.util.List<Player> getPlayers(@PathVariable("count") int count, @PathVariable("page") int page) {
-        List<Player> players = new LinkedList<>();
-        int tablesize = playerManager.findAllPlayers().size();
-        int reqsize = page * count;
-        int downloadsize = count;
-        if(reqsize > tablesize) downloadsize = reqsize - tablesize + 1;
-        for (int i = 0; i < downloadsize; i++) {
-            players.add(playerManager.findAllPlayers().get((page*count-count)+i).clone());
-        }
-        return players;
+    public java.util.List<Player> getPlayers(@PathVariable("page") int page, @PathVariable("count") int count) {
+        return playerManager.findPageofPlayers(page, count);
     }
 
     @RequestMapping(value = "/player",method = RequestMethod.POST)
