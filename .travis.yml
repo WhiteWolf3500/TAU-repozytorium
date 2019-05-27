@@ -1,3 +1,0 @@
-language: java
-script:
-- cd tau-mmo-mock; mvn test

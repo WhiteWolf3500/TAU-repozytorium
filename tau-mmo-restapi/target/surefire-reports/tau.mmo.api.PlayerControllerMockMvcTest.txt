@@ -1,0 +1,44 @@
+-------------------------------------------------------------------------------
+Test set: tau.mmo.api.PlayerControllerMockMvcTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 5, Skipped: 0, Time elapsed: 4.491 s <<< FAILURE! - in tau.mmo.api.PlayerControllerMockMvcTest
+greetingShouldReturnHelloMessage(tau.mmo.api.PlayerControllerMockMvcTest)  Time elapsed: 0.002 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'hibernateSessionFactory' defined in class path resource [beans.xml]: Invocation of init method failed; nested exception is org.hibernate.exception.JDBCConnectionException: Unable to open JDBC Connection for DDL execution
+Caused by: org.hibernate.exception.JDBCConnectionException: Unable to open JDBC Connection for DDL execution
+Caused by: java.sql.SQLTransientConnectionException: java.net.ConnectException: Połączenie odrzucone (Connection refused)
+Caused by: org.hsqldb.HsqlException: java.net.ConnectException: Połączenie odrzucone (Connection refused)
+Caused by: java.net.ConnectException: Połączenie odrzucone (Connection refused)
+
+getAllShouldReturnSomeResults(tau.mmo.api.PlayerControllerMockMvcTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'hibernateSessionFactory' defined in class path resource [beans.xml]: Invocation of init method failed; nested exception is org.hibernate.exception.JDBCConnectionException: Unable to open JDBC Connection for DDL execution
+Caused by: org.hibernate.exception.JDBCConnectionException: Unable to open JDBC Connection for DDL execution
+Caused by: java.sql.SQLTransientConnectionException: java.net.ConnectException: Połączenie odrzucone (Connection refused)
+Caused by: org.hsqldb.HsqlException: java.net.ConnectException: Połączenie odrzucone (Connection refused)
+Caused by: java.net.ConnectException: Połączenie odrzucone (Connection refused)
+
+getAllShouldReturnEmptyResults(tau.mmo.api.PlayerControllerMockMvcTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'hibernateSessionFactory' defined in class path resource [beans.xml]: Invocation of init method failed; nested exception is org.hibernate.exception.JDBCConnectionException: Unable to open JDBC Connection for DDL execution
+Caused by: org.hibernate.exception.JDBCConnectionException: Unable to open JDBC Connection for DDL execution
+Caused by: java.sql.SQLTransientConnectionException: java.net.ConnectException: Połączenie odrzucone (Connection refused)
+Caused by: org.hsqldb.HsqlException: java.net.ConnectException: Połączenie odrzucone (Connection refused)
+Caused by: java.net.ConnectException: Połączenie odrzucone (Connection refused)
+
+postNewPlayerShouldReallyAddItToDatabase(tau.mmo.api.PlayerControllerMockMvcTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'hibernateSessionFactory' defined in class path resource [beans.xml]: Invocation of init method failed; nested exception is org.hibernate.exception.JDBCConnectionException: Unable to open JDBC Connection for DDL execution
+Caused by: org.hibernate.exception.JDBCConnectionException: Unable to open JDBC Connection for DDL execution
+Caused by: java.sql.SQLTransientConnectionException: java.net.ConnectException: Połączenie odrzucone (Connection refused)
+Caused by: org.hsqldb.HsqlException: java.net.ConnectException: Połączenie odrzucone (Connection refused)
+Caused by: java.net.ConnectException: Połączenie odrzucone (Connection refused)
+
+contextLoads(tau.mmo.api.PlayerControllerMockMvcTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'hibernateSessionFactory' defined in class path resource [beans.xml]: Invocation of init method failed; nested exception is org.hibernate.exception.JDBCConnectionException: Unable to open JDBC Connection for DDL execution
+Caused by: org.hibernate.exception.JDBCConnectionException: Unable to open JDBC Connection for DDL execution
+Caused by: java.sql.SQLTransientConnectionException: java.net.ConnectException: Połączenie odrzucone (Connection refused)
+Caused by: org.hsqldb.HsqlException: java.net.ConnectException: Połączenie odrzucone (Connection refused)
+Caused by: java.net.ConnectException: Połączenie odrzucone (Connection refused)
+
