@@ -17,6 +17,7 @@ public class PlayerController {
     @Autowired
     PlayerManager playerManager;
 
+    //list all players
     @RequestMapping("/players")
     public java.util.List<Player> getPlayers() {
         List<Player> players = new LinkedList<>();
@@ -26,17 +27,20 @@ public class PlayerController {
         return players;
     }
     
+    //list all players by pages
     @RequestMapping("/players/{page}/{count}")
     public java.util.List<Player> getPlayers(@PathVariable("page") int page, @PathVariable("count") int count) {
         return playerManager.findPageofPlayers(page, count);
     }
 
+    //add player
     @RequestMapping(value = "/player",method = RequestMethod.POST)
     public Player addPlayer(@RequestBody Player nplayer) {
         nplayer.setId(playerManager.addPlayer(nplayer));
         return nplayer;
     }
 
+    //update player
     @RequestMapping(value = "/playerupdate/{id}",method = RequestMethod.PUT)
     public Player getPlayer(@PathVariable("id") Long id, @RequestBody Player nplayer) throws SQLException {
         Player player = playerManager.findPlayerById(id);
@@ -47,17 +51,20 @@ public class PlayerController {
         return playerManager.findPlayerById(id).clone();
     }
 
+    //main page
     @RequestMapping("/")
     public String index() {
         return "Hello and welcome to Tau MMO!";
     }
 
+    //find player by id
     @RequestMapping(value = "/player/{id}", produces = MediaType.APPLICATION_JSON_VALUE)
     @ResponseBody
     public Player getPlayer(@PathVariable("id") Long id) throws SQLException {
         return playerManager.findPlayerById(id).clone();
     }
 
+    //find players by filter (?)
     @RequestMapping(value = "/players", produces = MediaType.APPLICATION_JSON_VALUE)
     @ResponseBody
     public List<Player> getPlayers(@RequestParam(value = "filter", required = false) String f) throws SQLException {
@@ -72,6 +79,7 @@ public class PlayerController {
         return players;
     }
 
+    //delete player
     @RequestMapping(value = "/player/{id}", method = RequestMethod.DELETE)
     @ResponseBody
     public String deletePlayer(@PathVariable("id") Long id) throws SQLException {

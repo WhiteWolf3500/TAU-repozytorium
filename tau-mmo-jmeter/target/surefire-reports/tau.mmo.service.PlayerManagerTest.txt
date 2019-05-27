@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: tau.mmo.service.PlayerManagerTest
 -------------------------------------------------------------------------------
-Tests run: 12, Failures: 0, Errors: 12, Skipped: 0, Time elapsed: 4.328 s <<< FAILURE! - in tau.mmo.service.PlayerManagerTest
-transferItem(tau.mmo.service.PlayerManagerTest)  Time elapsed: 0.005 s  <<< ERROR!
+Tests run: 12, Failures: 0, Errors: 12, Skipped: 0, Time elapsed: 4.17 s <<< FAILURE! - in tau.mmo.service.PlayerManagerTest
+transferItem(tau.mmo.service.PlayerManagerTest)  Time elapsed: 0.003 s  <<< ERROR!
 java.lang.IllegalStateException: Failed to load ApplicationContext
 Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'playerController': Unsatisfied dependency expressed through field 'playerManager'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'playerManagerHibernateImpl': Unsatisfied dependency expressed through field 'sessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'hibernateSessionFactory' defined in class path resource [beans.xml]: Invocation of init method failed; nested exception is org.hibernate.exception.JDBCConnectionException: Unable to open JDBC Connection for DDL execution
 Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'playerManagerHibernateImpl': Unsatisfied dependency expressed through field 'sessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'hibernateSessionFactory' defined in class path resource [beans.xml]: Invocation of init method failed; nested exception is org.hibernate.exception.JDBCConnectionException: Unable to open JDBC Connection for DDL execution
@@ -22,7 +22,7 @@ Caused by: java.sql.SQLTransientConnectionException: java.net.ConnectException: 
 Caused by: org.hsqldb.HsqlException: java.net.ConnectException: Połączenie odrzucone (Connection refused)
 Caused by: java.net.ConnectException: Połączenie odrzucone (Connection refused)
 
-addItemTest(tau.mmo.service.PlayerManagerTest)  Time elapsed: 0 s  <<< ERROR!
+addItemTest(tau.mmo.service.PlayerManagerTest)  Time elapsed: 0.001 s  <<< ERROR!
 java.lang.IllegalStateException: Failed to load ApplicationContext
 Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'playerController': Unsatisfied dependency expressed through field 'playerManager'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'playerManagerHibernateImpl': Unsatisfied dependency expressed through field 'sessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'hibernateSessionFactory' defined in class path resource [beans.xml]: Invocation of init method failed; nested exception is org.hibernate.exception.JDBCConnectionException: Unable to open JDBC Connection for DDL execution
 Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'playerManagerHibernateImpl': Unsatisfied dependency expressed through field 'sessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'hibernateSessionFactory' defined in class path resource [beans.xml]: Invocation of init method failed; nested exception is org.hibernate.exception.JDBCConnectionException: Unable to open JDBC Connection for DDL execution
@@ -42,7 +42,7 @@ Caused by: java.sql.SQLTransientConnectionException: java.net.ConnectException: 
 Caused by: org.hsqldb.HsqlException: java.net.ConnectException: Połączenie odrzucone (Connection refused)
 Caused by: java.net.ConnectException: Połączenie odrzucone (Connection refused)
 
-correctSetupTest(tau.mmo.service.PlayerManagerTest)  Time elapsed: 0 s  <<< ERROR!
+correctSetupTest(tau.mmo.service.PlayerManagerTest)  Time elapsed: 0.001 s  <<< ERROR!
 java.lang.IllegalStateException: Failed to load ApplicationContext
 Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'playerController': Unsatisfied dependency expressed through field 'playerManager'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'playerManagerHibernateImpl': Unsatisfied dependency expressed through field 'sessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'hibernateSessionFactory' defined in class path resource [beans.xml]: Invocation of init method failed; nested exception is org.hibernate.exception.JDBCConnectionException: Unable to open JDBC Connection for DDL execution
 Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'playerManagerHibernateImpl': Unsatisfied dependency expressed through field 'sessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'hibernateSessionFactory' defined in class path resource [beans.xml]: Invocation of init method failed; nested exception is org.hibernate.exception.JDBCConnectionException: Unable to open JDBC Connection for DDL execution
@@ -72,7 +72,7 @@ Caused by: java.sql.SQLTransientConnectionException: java.net.ConnectException: 
 Caused by: org.hsqldb.HsqlException: java.net.ConnectException: Połączenie odrzucone (Connection refused)
 Caused by: java.net.ConnectException: Połączenie odrzucone (Connection refused)
 
-updatePlayerTest(tau.mmo.service.PlayerManagerTest)  Time elapsed: 0.003 s  <<< ERROR!
+updatePlayerTest(tau.mmo.service.PlayerManagerTest)  Time elapsed: 0 s  <<< ERROR!
 java.lang.IllegalStateException: Failed to load ApplicationContext
 Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'playerController': Unsatisfied dependency expressed through field 'playerManager'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'playerManagerHibernateImpl': Unsatisfied dependency expressed through field 'sessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'hibernateSessionFactory' defined in class path resource [beans.xml]: Invocation of init method failed; nested exception is org.hibernate.exception.JDBCConnectionException: Unable to open JDBC Connection for DDL execution
 Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'playerManagerHibernateImpl': Unsatisfied dependency expressed through field 'sessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'hibernateSessionFactory' defined in class path resource [beans.xml]: Invocation of init method failed; nested exception is org.hibernate.exception.JDBCConnectionException: Unable to open JDBC Connection for DDL execution
@@ -82,7 +82,7 @@ Caused by: java.sql.SQLTransientConnectionException: java.net.ConnectException: 
 Caused by: org.hsqldb.HsqlException: java.net.ConnectException: Połączenie odrzucone (Connection refused)
 Caused by: java.net.ConnectException: Połączenie odrzucone (Connection refused)
 
-getPlayerByIdTest(tau.mmo.service.PlayerManagerTest)  Time elapsed: 0 s  <<< ERROR!
+getPlayerByIdTest(tau.mmo.service.PlayerManagerTest)  Time elapsed: 0.001 s  <<< ERROR!
 java.lang.IllegalStateException: Failed to load ApplicationContext
 Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'playerController': Unsatisfied dependency expressed through field 'playerManager'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'playerManagerHibernateImpl': Unsatisfied dependency expressed through field 'sessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'hibernateSessionFactory' defined in class path resource [beans.xml]: Invocation of init method failed; nested exception is org.hibernate.exception.JDBCConnectionException: Unable to open JDBC Connection for DDL execution
 Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'playerManagerHibernateImpl': Unsatisfied dependency expressed through field 'sessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'hibernateSessionFactory' defined in class path resource [beans.xml]: Invocation of init method failed; nested exception is org.hibernate.exception.JDBCConnectionException: Unable to open JDBC Connection for DDL execution
@@ -92,7 +92,7 @@ Caused by: java.sql.SQLTransientConnectionException: java.net.ConnectException: 
 Caused by: org.hsqldb.HsqlException: java.net.ConnectException: Połączenie odrzucone (Connection refused)
 Caused by: java.net.ConnectException: Połączenie odrzucone (Connection refused)
 
-deleteItemtoPlayer(tau.mmo.service.PlayerManagerTest)  Time elapsed: 0.011 s  <<< ERROR!
+deleteItemtoPlayer(tau.mmo.service.PlayerManagerTest)  Time elapsed: 0.008 s  <<< ERROR!
 java.lang.IllegalStateException: Failed to load ApplicationContext
 Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'playerController': Unsatisfied dependency expressed through field 'playerManager'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'playerManagerHibernateImpl': Unsatisfied dependency expressed through field 'sessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'hibernateSessionFactory' defined in class path resource [beans.xml]: Invocation of init method failed; nested exception is org.hibernate.exception.JDBCConnectionException: Unable to open JDBC Connection for DDL execution
 Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'playerManagerHibernateImpl': Unsatisfied dependency expressed through field 'sessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'hibernateSessionFactory' defined in class path resource [beans.xml]: Invocation of init method failed; nested exception is org.hibernate.exception.JDBCConnectionException: Unable to open JDBC Connection for DDL execution
