@@ -1,6 +1,0 @@
-tau/mmo/service/PlayerManager.class
-tau/mmo/api/PlayerController.class
-tau/mmo/service/PlayerManagerHibernateImpl.class
-tau/mmo/domain/Item.class
-tau/mmo/Application.class
-tau/mmo/domain/Player.class
