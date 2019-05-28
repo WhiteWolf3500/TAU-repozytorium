@@ -1,0 +1,21 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,Latency,IdleTime,Connect
+1559027433511,183,addPlayerRequest,200,,Ustawienia 1-1,text,true,,205,235,1,1,182,0,58
+1559027433698,106,addPlayerRequest,200,,Ustawienia 1-1,text,true,,205,235,1,1,106,0,0
+1559027433804,110,addPlayerRequest,200,,Ustawienia 1-1,text,true,,211,241,1,1,110,0,0
+1559027433915,104,addPlayerRequest,200,,Ustawienia 1-1,text,true,,207,237,1,1,104,0,0
+1559027436203,107,getAllPlayersRequest,200,,Tests 1-1,text,true,,425,125,1,1,107,0,1
+1559027438316,311,JDBC Request Select all from Player,200,OK,Tests 1-1,text,true,,104,0,1,1,309,0,305
+1559027440628,106,getPlayerByID,200,,Tests 1-1,text,true,,207,128,1,1,106,0,1
+1559027442736,106,getPlayerByID,200,,Tests 1-1,text,true,,207,128,1,1,105,0,1
+1559027444843,106,getPlayerByID,200,,Tests 1-1,text,true,,213,128,1,1,106,0,1
+1559027446951,106,getPlayerByID,200,,Tests 1-1,text,true,,209,128,1,1,106,0,1
+1559027449059,316,updatePlayer,200,,Tests 1-1,text,true,,209,246,1,1,316,0,2
+1559027451376,313,updatePlayer,200,,Tests 1-1,text,true,,209,246,1,1,313,0,1
+1559027453690,316,updatePlayer,200,,Tests 1-1,text,true,,209,246,1,1,316,0,2
+1559027456007,314,updatePlayer,200,,Tests 1-1,text,true,,209,246,1,1,314,0,1
+1559027456328,208,JDBC Request Select all from Player,200,OK,tearDown Thread Group 1-1,text,true,,104,0,1,1,208,0,207
+1559027456537,210,deletePlayerByID,200,,tearDown Thread Group 1-1,text,true,,120,150,1,1,210,0,1
+1559027456748,211,deletePlayerByID,200,,tearDown Thread Group 1-1,text,true,,120,150,1,1,211,0,0
+1559027456960,210,deletePlayerByID,200,,tearDown Thread Group 1-1,text,true,,120,150,1,1,210,0,0
+1559027457172,208,deletePlayerByID,200,,tearDown Thread Group 1-1,text,true,,120,150,1,1,208,0,0
+1559027457381,2,dbCleanup,200,OK,tearDown Thread Group 1-1,text,true,,9,0,1,1,2,0,0

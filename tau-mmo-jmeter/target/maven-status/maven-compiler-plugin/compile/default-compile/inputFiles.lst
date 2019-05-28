@@ -1,8 +1,8 @@
-/home/whitewolf/tau/TAU-repozytorium/tau-mmo-jmeter/src/main/java/tau/mmo/configuration/RestConfiguration.java
-/home/whitewolf/tau/TAU-repozytorium/tau-mmo-jmeter/src/main/java/tau/mmo/Application.java
-/home/whitewolf/tau/TAU-repozytorium/tau-mmo-jmeter/src/main/java/tau/mmo/service/PlayerManagerHibernateImpl.java
-/home/whitewolf/tau/TAU-repozytorium/tau-mmo-jmeter/src/main/java/tau/mmo/api/PlayerController.java
-/home/whitewolf/tau/TAU-repozytorium/tau-mmo-jmeter/src/main/java/tau/mmo/service/PlayerManager.java
-/home/whitewolf/tau/TAU-repozytorium/tau-mmo-jmeter/src/main/java/tau/mmo/domain/Player.java
-/home/whitewolf/tau/TAU-repozytorium/tau-mmo-jmeter/src/main/java/tau/mmo/domain/Item.java
-/home/whitewolf/tau/TAU-repozytorium/tau-mmo-jmeter/src/main/java/tau/mmo/configuration/RestInitializer.java
+/home/PJWSTK/s15196/tau/TAU-repozytorium/tau-mmo-jmeter/src/main/java/tau/mmo/configuration/RestConfiguration.java
+/home/PJWSTK/s15196/tau/TAU-repozytorium/tau-mmo-jmeter/src/main/java/tau/mmo/service/PlayerManager.java
+/home/PJWSTK/s15196/tau/TAU-repozytorium/tau-mmo-jmeter/src/main/java/tau/mmo/domain/Player.java
+/home/PJWSTK/s15196/tau/TAU-repozytorium/tau-mmo-jmeter/src/main/java/tau/mmo/service/PlayerManagerHibernateImpl.java
+/home/PJWSTK/s15196/tau/TAU-repozytorium/tau-mmo-jmeter/src/main/java/tau/mmo/api/PlayerController.java
+/home/PJWSTK/s15196/tau/TAU-repozytorium/tau-mmo-jmeter/src/main/java/tau/mmo/configuration/RestInitializer.java
+/home/PJWSTK/s15196/tau/TAU-repozytorium/tau-mmo-jmeter/src/main/java/tau/mmo/domain/Item.java
+/home/PJWSTK/s15196/tau/TAU-repozytorium/tau-mmo-jmeter/src/main/java/tau/mmo/Application.java
